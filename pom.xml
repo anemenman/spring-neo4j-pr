@@ -15,7 +15,7 @@
     <description>spring-neo4j-pr</description>
     <properties>
         <java.version>21</java.version>
-        <jpamodelgen.version>6.1.6.Final</jpamodelgen.version>
+        <springdoc-openapi.version>2.1.0</springdoc-openapi.version>
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <commons-collections4.version>4.5.0-M2</commons-collections4.version>
         <commons-math3.version>3.6.1</commons-math3.version>
@@ -39,6 +39,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-neo4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>${springdoc-openapi.version}</version>
         </dependency>
 
         <dependency>
