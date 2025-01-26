@@ -9,9 +9,9 @@ import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
 @SpringBootApplication
 @EnableNeo4jAuditing
 @EnableNeo4jRepositories(basePackages = {"aa.repository"})
-public class Application {
+public class NeoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(NeoApplication.class, args);
     }
 }
